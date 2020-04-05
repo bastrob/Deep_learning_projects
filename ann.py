@@ -15,7 +15,7 @@ import pandas as pd
 
 
 # Import du dataset
-dataset = pd.read_csv("data/Churn_Modelling.csv")
+dataset = pd.read_csv("data/ann_dataset/Churn_Modelling.csv")
 
 
 # Le jeu de données est propre, pas de nettoyage necessaire
