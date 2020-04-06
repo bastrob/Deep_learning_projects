@@ -75,7 +75,7 @@ classifier.add(Dense(units=1, activation="sigmoid"))
 
 
 # Compilation
-classifier.compile(optimizer="rmsprop", loss="binary_crossentropy", metrics=["accuracy"])
+classifier.compile(optimizer="adam", loss="binary_crossentropy", metrics=["accuracy"])
 
 
 
